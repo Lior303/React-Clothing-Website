@@ -1,29 +1,52 @@
-import React from 'react'
-import './header.styles.scss'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
 
-import {Link} from 'react-router-dom'
+import { auth } from '../../firebase/firebase.utils';
+
 import { ReactComponent as Logo } from '../../assets/071 crown.svg'
-import {auth} from "../../firebase/firebase.utils";
 
-const Header = ({currentUser}) => (
+import './header.styles.scss';
+
+import CartIcon from '../cart-icon/cart-icon.component';
+
+import CardDropdown from '../cart-dropdown/cart-dropdown.component';
+
+const Header = ({ currentUser, hidden }) => (
     <div className='header'>
         <Link className='logo-container' to='/'>
-            <Logo className='logo'/>
+            <Logo className='logo' />
         </Link>
         <div className='options'>
             <Link className='option' to='/shop'>
                 SHOP
             </Link>
-            <Link className='option' to='/contact'>
+            <Link className='option' to='/shop'>
                 CONTACT
             </Link>
-            {
-                currentUser ?
-                    <div className='option' onClick={() => auth.signOut()}>SIGN OUT</div>
-                    : <Link className='option' to='/signin'>SIGN IN</Link>
-            }
+            {currentUser ? (
+                <div className='option' onClick={() => auth.signOut()}>
+                    SIGN OUT
+                </div>
+            ) : (
+                <Link className='option' to='/signin'>
+                    SIGN IN
+                </Link>
+            )}
+            <CartIcon/>
         </div>
+        {
+            hidden ? null : <CardDropdown/>
+        }
     </div>
-)
+);
 
-export default Header;
+//mapStateToProps is the way of accessing the state
+const mapStateToProps = state => ({
+    currentUser: state.user.currentUser,
+    //state is the first param ---> the root reducer.
+    //the cart is the name of the cart reducer and then hidden is the value
+    hidden: state.cart.hidden
+});
+
+export default connect(mapStateToProps)(Header);
