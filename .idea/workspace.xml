@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37f75d79-6be7-43a0-8730-6992305accd1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-buttom.styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.scss" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,12 +28,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/redux/store.js">
+        <entry file="file://$PROJECT_DIR$/src/components/custom-button/custom-button.component.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+            <state relative-caret-position="40">
+              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
               <folding>
-                <element signature="e#0#53#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,17 +47,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/redux/user/user.types.js" />
-        <option value="$PROJECT_DIR$/src/redux/user/user.reducer.js" />
-        <option value="$PROJECT_DIR$/src/redux/user/user.actions.js" />
-        <option value="$PROJECT_DIR$/src/components/custom-button/custom-button.component.jsx" />
-        <option value="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" />
-        <option value="$PROJECT_DIR$/src/components/preview-collection/preview-collection.component.jsx" />
         <option value="$PROJECT_DIR$/src/components/collection-item/collection-item.component.jsx" />
         <option value="$PROJECT_DIR$/src/pages/shop/shop.data.js" />
         <option value="$PROJECT_DIR$/src/components/cart-item/cart-item.component.jsx" />
         <option value="$PROJECT_DIR$/src/redux/user/user.selector.js" />
-        <option value="$PROJECT_DIR$/src/components/header/header.component.jsx" />
         <option value="$PROJECT_DIR$/src/components/cart-icon/cart-icon.component.jsx" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/redux/cart/cart.selectores.js" />
@@ -87,14 +91,20 @@
         <option value="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" />
         <option value="$PROJECT_DIR$/src/components/stripe-button/stripe-button.component.jsx" />
         <option value="$PROJECT_DIR$/src/redux/store.js" />
+        <option value="$PROJECT_DIR$/src/pages/homepage/homepage.styles.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" />
+        <option value="$PROJECT_DIR$/src/components/header/header.styles.jsx" />
+        <option value="$PROJECT_DIR$/src/components/header/header.component.jsx" />
+        <option value="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.jsx" />
+        <option value="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" />
+        <option value="$PROJECT_DIR$/src/components/custom-button/custom-button.component.jsx" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -120,7 +130,14 @@
               <item name="project-2-clothing" type="b2602c69:ProjectViewProjectNode" />
               <item name="project-2-clothing" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-2-clothing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-2-clothing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="custom-button" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -186,18 +203,18 @@
       <workItem from="1606123555062" duration="28000" />
       <workItem from="1606123607645" duration="275000" />
       <workItem from="1606126155317" duration="4553000" />
-      <workItem from="1606136385186" duration="816000" />
+      <workItem from="1606136385186" duration="6629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71153000" />
+    <option name="totallyTimeSpent" value="76966000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="782" height="838" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.13417052" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20819564" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -221,47 +238,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/directory/directory.reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/directory/directory.selectors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/directory/directory.component.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/shop/shop.reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/shop/shop.data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -388,13 +364,6 @@
     <entry file="file://$PROJECT_DIR$/public/manifest.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/header/header.component.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/shop/shop.selectors.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -406,18 +375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/homepage/homepage.styles.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -528,26 +485,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/custom-button/custom-buttom.styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.component.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/custom-button/custom-button.component.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -585,9 +526,85 @@
     <entry file="file://$PROJECT_DIR$/src/redux/store.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/homepage/homepage.styles.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/homepage/homepage.styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/header.styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/header.component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/header.styles.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/custom-button/custom-buttom.styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/custom-button/custom-button.styles.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="55" column="56" lean-forward="true" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-142">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/custom-button/custom-button.component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
