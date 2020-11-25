@@ -22,3 +22,7 @@ export const clearItemFromCart = item => ({
 export const emptyCartAfterCheckout = () => ({
   type: CartActionTypes.EMPTY_CART_AFTER_CHECKOUT
 });
+
+export const clearCart = () => ({
+  type:CartActionTypes.CLEAR_CART
+});

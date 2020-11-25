@@ -3,12 +3,16 @@
 
 import {all, call} from 'redux-saga/effects';
 
-import {fetchCollectionsStart} from "./shop/shop.sagas";
+import {userSagas} from "./user/user.sagas";
+import {cartSagas} from "./cart/cart.sagas";
+import {shopSagas} from "./shop/shop.sagas";
 
 export default function* rootSaga() {
     //list all the sagas
     yield all([
-        call(fetchCollectionsStart)
+        call(userSagas),
+        call(cartSagas),
+        call(shopSagas)
     ]);
     // all take each saga and run it in a separate task (thread)
     // we can also do --- fetchCollectionsStart() without call
